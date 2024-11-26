@@ -27,15 +27,34 @@
 		498F30AA2CF5253C0051698C /* Monopoly3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monopoly3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		498F30C02CF525430051698C /* Monopoly3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Monopoly3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		498F30CA2CF525430051698C /* Monopoly3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Monopoly3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		498F30EC2CF526100051698C /* Monopoly1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Monopoly1.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		498F30D22CF525430051698C /* Exceptions for "Monopoly3" folder in "Monopoly3" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Assets.xcassets,
+				BoardSquareTableViewCell.swift,
 				Info.plist,
+				Monopoly.swift,
+				Monopoly1.xcdatamodeld,
+				MonopolyTableTableViewController.swift,
+				PLayer.swift,
 			);
 			target = 498F30A92CF5253C0051698C /* Monopoly3 */;
+		};
+		498F30FF2CF526180051698C /* Exceptions for "Monopoly3" folder in "Monopoly3Tests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				BoardSquareTableViewCell.swift,
+				Monopoly.swift,
+				Monopoly1.xcdatamodeld,
+				MonopolyTableTableViewController.swift,
+				PLayer.swift,
+			);
+			target = 498F30BF2CF525430051698C /* Monopoly3Tests */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -44,6 +63,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				498F30D22CF525430051698C /* Exceptions for "Monopoly3" folder in "Monopoly3" target */,
+				498F30FF2CF526180051698C /* Exceptions for "Monopoly3" folder in "Monopoly3Tests" target */,
 			);
 			path = Monopoly3;
 			sourceTree = "<group>";
@@ -101,6 +121,13 @@
 				498F30AA2CF5253C0051698C /* Monopoly3.app */,
 				498F30C02CF525430051698C /* Monopoly3Tests.xctest */,
 				498F30CA2CF525430051698C /* Monopoly3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		498F31002CF526180051698C /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -211,6 +238,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 498F30AB2CF5253C0051698C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 498F31002CF526180051698C /* Products */;
+					ProjectRef = 498F30EC2CF526100051698C /* Monopoly1.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				498F30A92CF5253C0051698C /* Monopoly3 */,
