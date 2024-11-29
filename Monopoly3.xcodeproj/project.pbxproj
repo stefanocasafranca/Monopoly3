@@ -40,7 +40,7 @@
 				Monopoly.swift,
 				Monopoly1.xcdatamodeld,
 				MonopolyTableTableViewController.swift,
-				PLayer.swift,
+				Player.swift,
 			);
 			target = 498F30A92CF5253C0051698C /* Monopoly3 */;
 		};
@@ -52,7 +52,7 @@
 				Monopoly.swift,
 				Monopoly1.xcdatamodeld,
 				MonopolyTableTableViewController.swift,
-				PLayer.swift,
+				Player.swift,
 			);
 			target = 498F30BF2CF525430051698C /* Monopoly3Tests */;
 		};
