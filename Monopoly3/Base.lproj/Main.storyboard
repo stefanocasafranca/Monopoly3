@@ -139,8 +139,8 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="mgS-Te-FNx" id="0gG-7J-l7a"/>
-                            <outlet property="delegate" destination="mgS-Te-FNx" id="f2N-5N-hWn"/>
+                            <outlet property="dataSource" destination="mgS-Te-FNx" id="FRM-7u-MpY"/>
+                            <outlet property="delegate" destination="mgS-Te-FNx" id="axj-8J-50K"/>
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="QJz-Be-v0V"/>
