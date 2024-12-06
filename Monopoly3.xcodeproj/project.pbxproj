@@ -37,10 +37,8 @@
 				Assets.xcassets,
 				BoardSquareTableViewCell.swift,
 				Info.plist,
-				Monopoly.swift,
 				Monopoly1.xcdatamodeld,
 				MonopolyTableTableViewController.swift,
-				Player.swift,
 			);
 			target = 498F30A92CF5253C0051698C /* Monopoly3 */;
 		};

@@ -14,20 +14,13 @@ class BoardSquareTableViewCell: UITableViewCell {
     @IBOutlet weak var colorButton: UIButton!
     @IBOutlet weak var squareNameLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
-    
     @IBOutlet var house: [UIImageView]!
     
-    
-    @IBOutlet weak var railroadName: UILabel!
-    
-    @IBOutlet weak var railroadPrice: UILabel!
-    
-    @IBOutlet weak var railroadImage: UIImageView!
+
     
     override func awakeFromNib() {
         super.awakeFromNib()
     }
-    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

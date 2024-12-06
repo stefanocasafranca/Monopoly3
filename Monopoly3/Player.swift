@@ -12,7 +12,7 @@ enum Token {
 }
 
 enum KindOfBuiling: Int{
-    case Unimproved = 0 ,House1, house2, house3, house4, Hotel
+    case Unimproved = 0 ,House1, house2, house3, house4, Hotel, mortgaged
 }
 class OwnedProperty {
     var nameOfProperty: Order
