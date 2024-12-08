@@ -232,10 +232,10 @@
                     <tabBarItem key="tabBarItem" title="Player" id="0eI-d2-nI5"/>
                     <navigationItem key="navigationItem" id="DhQ-Fv-uMG"/>
                     <connections>
-                        <outlet property="getOutOfJailLabel" destination="gEv-QI-pug" id="yFX-7R-Dqw"/>
+                        <outlet property="getOutOfJailLabel" destination="SjW-eu-qL5" id="Z1m-kc-kH9"/>
                         <outlet property="inJailImage" destination="XX3-y4-cQ7" id="kP6-Fa-E2O"/>
                         <outlet property="moneyLabel" destination="nv5-mG-ngf" id="sp4-pX-imb"/>
-                        <outlet property="playerName" destination="gEv-QI-pug" id="Cni-U9-fSK"/>
+                        <outlet property="playerName" destination="gEv-QI-pug" id="ayi-EK-exe"/>
                         <outlet property="tableView" destination="l2n-jN-BGj" id="onS-bb-aFA"/>
                         <outlet property="tokenImage" destination="zGh-Wd-yZs" id="Svf-7l-KOo"/>
                     </connections>
